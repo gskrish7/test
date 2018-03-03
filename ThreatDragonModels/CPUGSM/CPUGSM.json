@@ -1,0 +1,18 @@
+{
+  "summary": {
+    "title": "CPUGSM",
+    "owner": "Gopi Krishnan S",
+    "description": "Threat Model Diagram"
+  },
+  "detail": {
+    "contributors": [],
+    "diagrams": [
+      {
+        "title": "dia-1",
+        "thumbnail": "./public/content/images/thumbnail.jpg",
+        "id": 0
+      }
+    ],
+    "reviewer": "Onur Zengin"
+  }
+}
