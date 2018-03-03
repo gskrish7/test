@@ -100,8 +100,8 @@
                 "y": 111
               },
               "target": {
-                "x": 16,
-                "y": 427
+                "x": 56,
+                "y": 376
               },
               "vertices": [
                 {
@@ -162,8 +162,8 @@
                 "height": 80
               },
               "position": {
-                "x": 297,
-                "y": 706
+                "x": 333,
+                "y": 709
               },
               "angle": 0,
               "id": "2d2b7acb-be82-4c95-bbf9-6d98c3ba7892",
@@ -521,12 +521,8 @@
               },
               "vertices": [
                 {
-                  "x": 140,
-                  "y": 719
-                },
-                {
-                  "x": 82,
-                  "y": 603
+                  "x": 35,
+                  "y": 789
                 }
               ],
               "id": "ec85893b-c78a-473e-986c-6db57cecb18b",
@@ -567,35 +563,63 @@
               },
               "vertices": [
                 {
-                  "x": 208,
-                  "y": 597
-                },
-                {
-                  "x": 240,
-                  "y": 749
-                },
-                {
-                  "x": 18,
-                  "y": 687
+                  "x": 101,
+                  "y": 709
                 }
               ],
-              "id": "777e0fcf-b2fe-4337-8d11-68a77a9f8be4",
+              "id": "b0fce711-092b-4d6e-99c3-f4ef7cca0c34",
               "labels": [
                 {
-                  "position": {
-                    "distance": 0.45443763640407403,
-                    "offset": 37.665155122522265
-                  },
+                  "position": 0.5,
                   "attrs": {
                     "text": {
-                      "text": "(Spoofing)\nImpersenated DTU",
+                      "text": "(Spoofin)Impersonate\nGSM Module",
                       "font-weight": "400",
                       "font-size": "small"
                     }
                   }
                 }
               ],
-              "z": 21,
+              "z": 22,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Flow",
+              "smooth": true,
+              "source": {
+                "id": "2d2b7acb-be82-4c95-bbf9-6d98c3ba7892"
+              },
+              "target": {
+                "id": "29d0a0c4-05ba-4dce-80c4-48ba69097073"
+              },
+              "vertices": [
+                {
+                  "x": 179,
+                  "y": 680
+                }
+              ],
+              "id": "c61e1f0d-165c-4809-9c90-826d557dd7ef",
+              "labels": [
+                {
+                  "position": 0.5,
+                  "attrs": {
+                    "text": {
+                      "text": "(Integrity)",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "z": 23,
               "hasOpenThreats": false,
               "attrs": {
                 ".marker-target": {
