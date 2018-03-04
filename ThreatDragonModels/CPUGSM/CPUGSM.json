@@ -96,17 +96,17 @@
               "type": "tm.Boundary",
               "smooth": true,
               "source": {
-                "x": 47,
-                "y": 111
+                "x": 77,
+                "y": 47
               },
               "target": {
-                "x": 56,
-                "y": 376
+                "x": 2,
+                "y": 386
               },
               "vertices": [
                 {
-                  "x": 164,
-                  "y": 268
+                  "x": 176,
+                  "y": 230
                 }
               ],
               "id": "51ffbe71-0f28-4cbb-a2e4-c3d0e1bf73e2",
@@ -315,7 +315,7 @@
                   },
                   "attrs": {
                     "text": {
-                      "text": "CBM Data Relayed",
+                      "text": "CBM Data Relayed\n(Encrypted)",
                       "font-weight": "400",
                       "font-size": "small"
                     }
@@ -536,8 +536,8 @@
               "labels": [
                 {
                   "position": {
-                    "distance": 0.4438698896790051,
-                    "offset": 0.5685005325358361
+                    "distance": 0.3979475209395331,
+                    "offset": 15.931236255215481
                   },
                   "attrs": {
                     "text": {
@@ -570,17 +570,20 @@
               },
               "vertices": [
                 {
-                  "x": 101,
-                  "y": 709
+                  "x": 65,
+                  "y": 782
                 }
               ],
               "id": "b0fce711-092b-4d6e-99c3-f4ef7cca0c34",
               "labels": [
                 {
-                  "position": 0.5,
+                  "position": {
+                    "distance": 0.45926879220843253,
+                    "offset": -9.34926988556981
+                  },
                   "attrs": {
                     "text": {
-                      "text": "(Spoofin)Impersonate\nGSM Module",
+                      "text": "(Spoofin)\nImpersonate GSM\nModule",
                       "font-weight": "400",
                       "font-size": "small"
                     }
@@ -609,17 +612,20 @@
               },
               "vertices": [
                 {
-                  "x": 179,
-                  "y": 680
+                  "x": 91,
+                  "y": 756
                 }
               ],
               "id": "c61e1f0d-165c-4809-9c90-826d557dd7ef",
               "labels": [
                 {
-                  "position": 0.5,
+                  "position": {
+                    "distance": 0.48575301282116085,
+                    "offset": 8.616520123323426
+                  },
                   "attrs": {
                     "text": {
-                      "text": "(Integrity)",
+                      "text": "(Integrity) Altering\nmessages",
                       "font-weight": "400",
                       "font-size": "small"
                     }
@@ -636,11 +642,53 @@
                   "class": "connection hasNoOpenThreats isInScope"
                 }
               }
+            },
+            {
+              "type": "tm.Flow",
+              "smooth": true,
+              "source": {
+                "id": "2d2b7acb-be82-4c95-bbf9-6d98c3ba7892"
+              },
+              "target": {
+                "id": "29d0a0c4-05ba-4dce-80c4-48ba69097073"
+              },
+              "vertices": [
+                {
+                  "x": 116,
+                  "y": 728
+                }
+              ],
+              "id": "ad21c58e-44cc-4dc4-819b-a2ce917df22e",
+              "labels": [
+                {
+                  "position": {
+                    "distance": 0.5374346911841956,
+                    "offset": 5.942471673712134
+                  },
+                  "attrs": {
+                    "text": {
+                      "text": "(Repudiate)",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "z": 24,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
+                }
+              }
             }
           ]
         },
         "size": {
-          "height": 824,
+          "height": 826.8889770507812,
           "width": 1300
         }
       }
